@@ -1,0 +1,132 @@
+.callback-form {
+  position: relative;
+  background-image: url('../img/callback-form-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.callback-form::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(47, 50, 75, 0.85);
+}
+
+.callback-form__container {
+  position: relative;
+  z-index: 1;
+}
+
+.callback-form__title {
+  font-family: 'Roboto Bold';
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+.callback-form__subtitle {
+  font-family: 'Roboto Medium';
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px;
+}
+
+.callback-form__consent {
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.callback-form__link {
+  color: #4A76A8;
+  text-decoration: underline;
+  transition: color .2s ease-in-out;
+  outline: none;
+}
+
+.callback-form__link:hover {
+  color: var(--hover);
+}
+
+.callback-form__link:active {
+  color: var(--main-color);
+}
+
+.callback-form__link:focus {
+  color: var(--light-blue);
+}
+
+
+@media (max-width: 1024px) {
+  .callback-form {
+    background-image: url('../img/callback-form-bg-1024.jpg');
+    background-position: center;
+    padding-bottom: 56px;
+  }
+
+  .callback-form__title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 16px;
+  }
+
+  .callback-form__subtitle {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .callback-form__consent {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .callback-form__title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .callback-form__subtitle {
+    font-size: 18px;
+  }
+
+  .callback-form__consent {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .callback-form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .callback-form__title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 11px;
+  }
+
+  .callback-form__subtitle {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 35px;
+  }
+
+  .callback-form__consent {
+    font-size: 11px;
+    line-height: 13px;
+  }
+}

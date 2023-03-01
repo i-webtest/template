@@ -1,0 +1,78 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 53px;
+}
+
+.phone {
+  font-size: 23.85px;
+  line-height: 28px;
+  transition: color .2s ease-in-out;
+}
+
+.callback {
+  font-size: 16px;
+  line-height: 19px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  transition: color .2s ease-in-out;
+}
+
+.phone:hover, 
+.callback:hover {
+  color: var(--main-color);
+}
+
+.phone:active,
+.callback:active {
+  color: #92d8e8;
+}
+
+.phone:focus,
+.callback:focus {
+  color: #92d8e8;
+  outline: none;
+}
+
+.contacts-icon {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .contacts {
+    min-height: 49px;
+  }
+
+  .phone {
+    font-size: 21px;
+    line-height: 25px;
+  }
+
+  .callback {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .phone {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .callback {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contacts {
+    display: none;
+  }
+
+  .contacts-icon {
+    display: block;
+  }
+}

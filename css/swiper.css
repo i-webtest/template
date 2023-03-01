@@ -1,0 +1,137 @@
+.helper {
+  position: relative;
+  width: 100%;
+}
+
+.swiper {
+  max-width: 870px;
+  height: 182px;
+}
+
+.swiper-wrapper {
+  height: 100%;
+  counter-reset: count 0;
+}
+
+.swiper-slide {
+  max-width: 180px;
+  height: 100%;
+}
+
+.swiper-button {
+  width: 38px;
+  height: 38px;
+  color: #fff;
+  background-color: rgba(75, 77, 98, 0.72);
+  box-shadow: 4px 4px 25px rgba(0, 210, 248, 0.05);
+  border-radius: 50px;
+  outline: none;
+}
+
+.swiper-button_prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.swiper-button__arrow-prev {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+  width: 9px;
+  height: 16px;
+}
+
+.swiper-button_next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.swiper-button__arrow-next {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 9px;
+  height: 16px;
+}
+
+.swiper-button-disabled {
+  color: #434343;
+  background-color: #FFFFFF;
+  box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__circle {
+  position: relative;
+  width: 104px;
+  height: 104px;
+  background-color: var(--light-blue);
+  border-radius: 50%;
+}
+
+.card__circle::after {
+  content: counter(count);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Roboto Medium';
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 73px;
+  color: #FFFFFF;
+  counter-increment: count;
+}
+
+.card__description {
+  font-family: 'Roboto Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--dark-text);
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .card__description {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper {
+    max-width: 166px;
+  }
+
+  .swiper-slide {
+    max-width: 166px;
+  }
+
+  .card__description {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
