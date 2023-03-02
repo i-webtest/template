@@ -16,6 +16,7 @@ body {
   font-style: normal;
   font-weight: 400;
   color: #FFFFFF;
+  background-color: #2f324b;
 }
 
 img,
@@ -91,7 +92,13 @@ iframe {
   margin: 0 auto;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 768px) {
+  body {
+    background-color: #2A2C3F;
+  }
+}
+
+@media (max-width: 480px) {
   .container {
     padding: 0 15px;
   }
