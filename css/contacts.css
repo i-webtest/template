@@ -35,7 +35,7 @@
   outline: none;
 }
 
-.contacts-icon {
+.contacts-link {
   display: none;
 }
 
@@ -72,7 +72,7 @@
     display: none;
   }
 
-  .contacts-icon {
+  .contacts-link {
     display: block;
   }
 }
