@@ -52,8 +52,6 @@
 
 .header__btn {
   display: block;
-  max-width: 200px;
-  min-height: 48px;
   font-family: 'Roboto Medium';
   font-weight: 500;
   font-size: 20px;
@@ -138,8 +136,6 @@
   }
 
   .header__btn {
-    max-width: 160px;
-    min-height: 38px;
     font-size: 16px;
     line-height: 19px;
     padding: 9px 29px;

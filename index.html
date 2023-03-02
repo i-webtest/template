@@ -28,18 +28,13 @@
     <header class="header">
       <div class="container header__container">
         <div class="header__wrapper">
-          <a class="header__logo logo" href="#">
-            <span class="header__logo-text logo-text">Logo</span>
-          </a>
+          <a class="header__logo logo" href="#">Logo</a>
 
-          <ul class="header__list contacts">
-            <li class="header__item contacts__item">
-              <a class="header__link contacts__link phone" href="tel:+79625561234">+7 (962) 556 - 1234</a>
-            </li>
-            <li class="header__item contacts__item">
-              <a class="header__link contacts__link callback" href="#">Перезвоните мне</a>
-            </li>
-          </ul>
+          <div class="header__list contacts">
+            <a class="header__link contacts__link phone" href="tel:+79625561234">+7 (962) 556 - 1234</a>
+
+            <a class="header__link contacts__link callback" href="#">Перезвоните мне</a>
+          </div>
 
           <a class="contacts-link" href="tel:+79625561234">
             <svg
@@ -145,19 +140,11 @@
           <p class="callback-form__subtitle">Оставьте номер телефона, и мы перезвоним вам</p>
 
           <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
-            <fieldset class="form__fieldset">
-              <label class="form__label">
-                <input class="form__input" type="text" name="name" placeholder="Ваше имя" />
-              </label>
+            <input class="form__input" type="text" name="name" placeholder="Ваше имя" required />
 
-              <label class="form__label">
-                <input class="form__input" type="tel" name="phone" placeholder="Телефон" />
-              </label>
+            <input class="form__input" type="tel" name="phone" placeholder="Телефон" required />
 
-              <label class="form__label">
-                <input class="form__input" type="email" name="mail" placeholder="E-mail" />
-              </label>
-            </fieldset>
+            <input class="form__input" type="email" name="mail" placeholder="E-mail" required />
 
             <button class="form__btn" type="submit">позвоните мне</button>
           </form>
@@ -171,25 +158,20 @@
 
     <footer class="footer">
       <div class="container footer__container">
-        <a class="footer__logo logo" href="#">
-          <span class="footer__logo-text logo-text">Logo</span>
-        </a>
+        <a class="footer__logo logo" href="#">Logo</a>
         <div class="footer__wrapper">
-          <ul class="footer__list">
-            <li class="footer__item">© 2022 XXXcompany.</li>
-            <li class="footer__item">Все права защищены.</li>
-          </ul>
+          <div class="footer__list">
+            <span class="footer__item">© 2022 XXXcompany.</span>
+            <span class="footer__item">Все права защищены.</span>
+          </div>
 
           <p class="footer__text">Сделано Ивановым Иваном</p>
 
-          <ul class="contacts">
-            <li class="contacts__item">
-              <a class="contacts__link phone" href="tel:+79625561234">+7 (962) 556 - 1234</a>
-            </li>
-            <li class="contacts__item">
-              <a class="contacts__link callback" href="#">Перезвоните мне</a>
-            </li>
-          </ul>
+          <div class="contacts">
+            <a class="contacts__link phone" href="tel:+79625561234">+7 (962) 556 - 1234</a>
+
+            <a class="contacts__link callback" href="#">Перезвоните мне</a>
+          </div>
 
           <a class="contacts-link" href="tel:+79625561234">
             <svg
@@ -209,9 +191,7 @@
           </a>
         </div>
       </div>
-      <div class="footer__bottom">
-        <p class="footer__text footer__bottom-text">Сделано Ивановым Иваном</p>
-      </div>
+      <p class="footer__bottom footer__text footer__bottom-text">Сделано Ивановым Иваном</p>
     </footer>
   </body>
 </html>

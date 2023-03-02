@@ -1,8 +1,12 @@
 .logo {
-  position: relative;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 68px;
   height: 68px;
+  font-family: 'Pacifico';
+  font-size: 25px;
+  line-height: 44px;
   background-color: var(--main-color);
   border-radius: 50%;
   transition: all .2s ease-in-out;
@@ -22,24 +26,10 @@
   background-color: #fff;
 }
 
-.logo-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -55%);
-  display: block;
-  font-family: 'Pacifico';
-  font-size: 25.16px;
-  line-height: 44px;
-}
-
 @media (max-width: 1024px) {
   .logo {
     width: 60px;
     height: 60px;
-  }
-
-  .logo-text {
     font-size: 22px;
     line-height: 39px
   }
@@ -49,9 +39,6 @@
   .logo {
     width: 30px;
     height: 30px;
-  }
-
-  .logo-text {
     font-size: 11px;
     line-height: 19px;
   }

@@ -18,6 +18,10 @@
   height: 100%;
 }
 
+/* .card:last-child {
+  margin-right: 0;
+} */
+
 .swiper-button {
   width: 38px;
   height: 38px;

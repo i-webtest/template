@@ -22,6 +22,11 @@
   margin-right: 19px;
 }
 
+.footer__list {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__item,
 .footer__text {
   font-family: 'Roboto Medium';
