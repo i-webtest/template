@@ -4,8 +4,8 @@
 }
 
 .swiper {
-  max-width: 870px;
-  height: 182px;
+  max-width: 934px;
+  height: 193px;
 }
 
 .swiper-wrapper {
@@ -14,7 +14,7 @@
 }
 
 .swiper-slide {
-  max-width: 180px;
+  max-width: 196px;
   height: 100%;
 }
 
@@ -81,8 +81,8 @@
 
 .card__circle {
   position: relative;
-  width: 104px;
-  height: 104px;
+  width: 122px;
+  height: 122px;
   background-color: var(--light-blue);
   border-radius: 50%;
 }
@@ -92,11 +92,11 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-51%, -42%);
   font-family: 'Roboto Medium';
   font-weight: 500;
-  font-size: 52px;
-  line-height: 73px;
+  font-size: 57px;
+  line-height: 100%;
   color: #FFFFFF;
   counter-increment: count;
 }
@@ -105,8 +105,8 @@
   font-family: 'Roboto Medium';
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 20px;
+  line-height: 28px;
   color: var(--dark-text);
   text-align: center;
 }

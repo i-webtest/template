@@ -1,37 +1,39 @@
 .about {
   background-color: #F9F9F9;
   padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 72px;
 }
 
 .about__title {
   font-family: 'Roboto Bold';
   font-weight: 700;
-  font-size: 32px;
-  line-height: 38px;
+  font-size: 35px;
+  line-height: 41px;
   color: var(--dark-text);
   text-align: center;
-  margin-bottom: 23px;
+  padding-right: 2px;
+  margin-bottom: 26px;
 }
 
 .about__subtitle {
   position: relative;
-  max-width: 174px;
+  max-width: 189px;
   font-family: 'Roboto Medium';
   font-weight: 500;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 22px;
+  line-height: 26px;
   color: var(--dark-text);
   text-align: center;
-  margin: 0 auto 33px;
+  padding-right: 3px;
+  margin: 0 auto 34px;
 }
 
 .about__subtitle::before {
   content: '';
   position: absolute;
-  left: 0;
-  top: 50%;
-  width: 40px;
+  left: -1px;
+  top: 47%;
+  width: 43px;
   height: 2px;
   background-color: var(--dark-text);
 }
@@ -39,20 +41,21 @@
 .about__subtitle::after {
   content: '';
   position: absolute;
-  right: 0;
-  top: 50%;
-  width: 40px;
+  right: 1px;
+  top: 47%;
+  width: 43px;
   height: 2px;
   background-color: var(--dark-text);
 }
 
 .about__text {
-  max-width: 666px;
-  font-size: 16px;
-  line-height: 23px;
+  max-width: 724px;
+  font-size: 18px;
+  line-height: 25px;
   color: var(--dark-text);
   text-align: center;
-  margin: 0 auto 50px;
+  padding-right: 2px;
+  margin: 0 auto 59px;
 }
 
 @media (max-width: 768px) {

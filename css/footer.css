@@ -17,6 +17,13 @@
   width: 100%;
 }
 
+.footer__wrapper-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 598px;
+}
+
 .footer__logo {
   flex-shrink: 0;
   margin-right: 19px;

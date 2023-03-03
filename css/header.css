@@ -38,7 +38,8 @@
   line-height: 61px;
   text-align: center;
   color: rgba(255, 255, 255, 0.86);
-  margin: 0 auto 35px;
+  padding-right: 2px;
+  margin: 0 auto 32px;
 }
 
 .header__description {
@@ -47,6 +48,7 @@
   line-height: 31px;
   text-align: center;
   color: rgba(255, 255, 255, 0.75);
+  padding-right: 2px;
   margin: 0 auto 90px;
 }
 
