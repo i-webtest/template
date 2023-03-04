@@ -42,6 +42,10 @@
   line-height: 17px;
 }
 
+.footer__item-1 {
+  display: none;
+}
+
 .footer__contacts {
   min-height: 54px;
 }
@@ -103,9 +107,7 @@
     line-height: 15px;
   }
 
-  .footer__item span:nth-child(2) {
-    display: none;
-  }
+  
 
   .footer__bottom {
     display: block;
@@ -131,11 +133,11 @@
     line-height: 11px;
   }
 
-  .footer__item span:nth-child(1) {
+  .footer__item-2 {
     display: none;
   }
 
-  .footer__item span:nth-child(2) {
+  .footer__item-2 {
     display: inline;
   }
 
