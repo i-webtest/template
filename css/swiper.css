@@ -112,20 +112,41 @@
 }
 
 @media (max-width: 1024px) {
+  .swiper {
+    max-width: 870px;
+    height: 179px;
+  }
+
+  .swiper-slide {
+    max-width: 180px;
+  }
+
+  .card__circle {
+    width: 104px;
+    height: 104px;
+  }
+
+  .card__circle::after {
+    transform: translate(-53%, -49%);
+    font-size: 52px;
+    line-height: 73px;
+  }
+
   .card__description {
-    font-size: 15px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 25px;
   }
 }
 
 @media (max-width: 768px) {
   .swiper {
     max-width: 400px;
-  }
+  }  
 }
 
 @media (max-width: 480px) {
   .swiper {
+    height: 180px;
     max-width: 166px;
   }
 
@@ -133,9 +154,21 @@
     max-width: 166px;
   }
 
+  .card__circle::after {
+    transform: translate(-52%, -48%);
+  }
+
   .card__description {
     font-size: 18px;
     line-height: 25px;
+  }
+
+  .swiper-button_next {
+    top: 51%;
+  }
+
+  .swiper-button__arrow-prev {
+    transform: translate(-53%, -39%) rotate(180deg);
   }
 }
 

@@ -58,6 +58,38 @@
   margin: 0 auto 59px;
 }
 
+@media (max-width: 1024px) {
+  .about {
+    padding-top: 71px;
+    padding-bottom: 73px;
+  }
+
+  .about__title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 23px;
+  }
+
+  .about__subtitle {
+    max-width: 174px;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 30px;
+  }
+
+  .about__subtitle::before,
+  .about__subtitle::after {
+    top: 44%;
+    width: 40px;
+  }
+
+  .about__text {
+    max-width: 666px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
+
 @media (max-width: 768px) {
   .about {
     padding-top: 60px;
@@ -72,34 +104,47 @@
 
 @media (max-width: 480px) {
   .about {
-    padding-top: 30px;
-    padding-bottom: 60px;
+    padding-top: 31px;
+    padding-bottom: 63px;
   }
 
   .about__title {
     max-width: 285px;
     font-size: 20px;
     line-height: 23px;
-    margin: 0 auto 15px;
+    padding-left: 7px;
+    margin: 0 auto 17px;
   }
 
   .about__subtitle {
     max-width: 134px;
     font-size: 16px;
     line-height: 19px;
-    margin: 0 auto 26px;
+    padding-right: 0;
+    padding-left: 2px;
+    margin: 0 auto 29px;
   }
 
   .about__subtitle::before,
   .about__subtitle::after {
+    top: 57%;
     width: 20px;
     height: 1px;
   }
+
+  .about__subtitle::before {
+    left: 1px;
+  }
+
+    .about__subtitle::after {
+      right: -1px;
+    }
 
   .about__text {
     max-width: 286px;
     font-size: 12px;
     line-height: 17px;
+    padding-right: 4px;
     margin: 0 auto 40px;
   }
 }

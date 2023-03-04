@@ -33,7 +33,9 @@
     width: 60px;
     height: 60px;
     font-size: 22px;
-    line-height: 39px
+    line-height: 39px;
+    padding-left: 3px;
+    padding-bottom: 4px;
   }
 }
 
@@ -43,5 +45,7 @@
     height: 30px;
     font-size: 11px;
     line-height: 19px;
+    padding-left: 2px;
+    padding-bottom: 3px;
   }
 }

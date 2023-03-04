@@ -1,14 +1,14 @@
 .contacts {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  min-height: 53px;
+  min-height: 50px;
 }
 
 .phone {
   font-size: 24px;
-  line-height: 28px;
+  line-height: 35px;
   transition: color .2s ease-in-out;
 }
 
@@ -44,16 +44,20 @@
 @media (max-width: 1024px) {
   .contacts {
     min-height: 49px;
+    padding-right: 2px;
+
   }
 
   .phone {
     font-size: 21px;
     line-height: 25px;
+    margin-bottom: 6px;
   }
 
   .callback {
     font-size: 13px;
     line-height: 15px;
+    padding-bottom: 2px;
   }
 }
 

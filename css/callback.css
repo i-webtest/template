@@ -73,18 +73,21 @@
   .callback-form {
     background-image: url('../img/callback-form-bg-1024.jpg');
     background-position: center;
-    padding-bottom: 56px;
+    padding-bottom: 57px;
   }
 
   .callback-form__title {
     font-size: 32px;
     line-height: 38px;
+    padding-right: 8px;
     margin-bottom: 16px;
   }
 
   .callback-form__subtitle {
     font-size: 20px;
     line-height: 23px;
+    padding-left: 18px;
+    margin-bottom: 47px;
   }
 
   .callback-form__consent {
@@ -111,24 +114,27 @@
 
 @media (max-width: 480px) {
   .callback-form {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 31px;
+    padding-bottom: 29px;
   }
 
   .callback-form__title {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 11px;
+    padding-left: 6px;
+    margin-bottom: 13px;
   }
 
   .callback-form__subtitle {
     font-size: 12px;
     line-height: 14px;
+    padding-left: 0;
     margin-bottom: 35px;
   }
 
   .callback-form__consent {
     font-size: 11px;
     line-height: 13px;
+    padding-left: 1px;
   }
 }

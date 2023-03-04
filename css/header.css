@@ -104,14 +104,16 @@
     max-width: 780px;
     font-size: 40px;
     line-height: 47px;
-    margin: 0 auto 27px;
+    padding-right: 0;
+    margin: 0 auto 28px;
   }
 
   .header__description {
     max-width: 754px;
     font-size: 18px;
     line-height: 25px;
-    margin: 0 auto 60px;
+    padding-right: 0;
+    margin: 0 auto 58px;
   }
 }
 
@@ -147,16 +149,19 @@
 @media (max-width: 480px) {
   .header__wrapper {
     min-height: 30px;
+    margin-bottom: 66px;
   }
 
   .header__title {
     font-size: 20px;
     line-height: 23px;
+    margin-bottom: 25px;
   }
 
   .header__description {
     font-size: 14px;
     line-height: 20px;
+    margin-bottom: 53px;
   }
 
   .header__description-hidden {
@@ -165,5 +170,9 @@
 
   .point {
     display: inline;
+  }
+
+  .header__btn {
+    padding: 9px 39px 10px;
   }
 }
